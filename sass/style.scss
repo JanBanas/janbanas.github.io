@@ -1,0 +1,432 @@
+body{
+font-family: 'PT Sans Caption', sans-serif;
+}
+
+.container{
+	display: flex;
+	flex-wrap: no-wrap;
+	flex-direction: row;
+	background: black;
+	overflow: hidden;
+	.logo{
+	color: white;
+	width: 50%;
+menu{
+	width: 50%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+}}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FF852D;
+}
+
+
+.sekcja{
+	position: relative;
+	display-flex: center;
+	background-image: url(../images/dart.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+	.blue{
+	background-color: rgba(10, 118, 168, 0.5);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	height: 100%;
+ 	overflow: hidden;
+	}
+	.text{
+	text-shadow: 3px 5px black;
+	color:white;
+	text-align: center;
+	margin-top: 145px;
+	margin-bottom: 150px;
+	padding: 45px;
+	font-size: 50px;
+	}
+	.button{
+	background-color: #FF852D;
+	margin: 20px;
+	border-color: #FF852D;
+	height: 50px;
+	width: 110px;
+	border-shadow: 3px 5px black;
+	color: white;
+	font-weight: bold;
+	}
+}
+
+.button:hover{
+	background-color: #D61919 ;
+	border-color: #D61919;
+}
+
+
+.orange{
+	background-color: #FF852D;
+	box-shadow: inner 0 30 0 0 rgb(252, 108, 3);
+.addSection{
+  	width: 80%;
+  	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	color: white;
+	}
+}
+
+
+#firstColumnOne{
+	text-align: center;
+	width: 100%;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ 	h1{
+ 	font-size: 30px;
+ 	margin-bottom: 15px;
+ 	}
+ }
+
+#scoundColumnTwo{
+	margin-left: 20px;
+	width: 40%;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ 	h1{
+ 	font-size: 30px;
+ 	margin-bottom: 15px;
+ 	}
+ }
+
+
+#thirdColumnThree{
+	margin-left: 20px;
+	width: 40%;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ 	h1{
+ 	font-size: 30px;
+ 	margin-bottom: 15px;
+ 	}
+ }
+
+ #tabOne{
+ 	border: 2px solid white;
+ 	margin: 10px;
+ 	padding: 10px;
+ 	text-align: center;
+ 	}
+
+ #tabOne:hover{
+ 	background-color:#0B87A3;
+ 	}
+
+#tabTwo{
+	border: 2px solid white;
+	margin: 10px;
+	padding: 10px;
+ 	text-align: center;
+}
+
+#tabTwo:hover{
+ 	background-color:#0B87A3;
+ }
+
+
+#tabThree{
+	border: 2px solid white;
+	margin: 10px;
+	padding: 10px;
+ 	text-align: center;
+}
+
+#tabThree:hover{
+ 	background-color:#0B87A3;
+ }
+
+#tabFour{
+	border: 2px solid white;
+	margin: 10px;
+	padding: 10px;
+ 	text-align: center;
+}
+
+#tabFour:hover{
+ 	background-color:#0B87A3;
+ }
+
+#firstColumnPic{
+	text-align: center;
+	width: 100%;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ 	h1{
+ 	font-size: 30px;
+ 	margin-bottom: 15px;
+ 	}
+ }
+
+#mainPic {
+	background: rgba(0, 0, 0, 0.5);
+	margin-bottom: 15px;
+}
+
+#scoundColumn{
+	margin-left: 20px;
+	width: 50%;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ 	h1{
+ 	font-size: 30px;
+ 	margin-bottom: 15px;
+ 	}
+ }
+
+#thirdColumn{
+	margin-left: 20px;
+	width: 50%;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ 	h1{
+ 	font-size: 30px;
+ 	margin-bottom: 15px;
+ 	}
+ }
+
+
+.orangeOne{
+	background-image: url(../images/plansz.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	.black{
+	background-color: rgba(0, 0, 0, 0.7);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+ 	overflow: hidden;
+.addSectionOne{
+	text-shadow: 3px 2px black;
+  	width: 80%;
+  	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	color: white;
+	}
+}}
+
+
+
+.plansza{
+	color: white;
+	position: relative;
+	display-flex: center;
+	background-image: url(../images/foot.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	overflow: hidden;
+	.black{
+	background-color: rgba(0, 0, 0, 0.7);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+ 	overflow: hidden;
+.ustawienie{
+	width: 80%;
+  	margin: 0 auto;
+  	text-align: center;
+  	font-size: 40px;
+#galeria{
+	margin-top:15px;
+}
+	}
+	}
+}
+
+
+
+.foto{
+	color:white;
+	position: relative;
+	display-flex: center;
+	background-image: url(../images/balls.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	overflow: hidden;
+.black{
+	background-color: rgba(0, 0, 0, 0.7);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+ 	overflow: hidden;
+.ustawienie{
+	width: 50%;
+  	margin: 0 auto;
+	display: flex;
+	flex-wrap: no-wrap;
+	flex-direction: row;
+	}
+	}
+}
+
+.tab{
+	display: flex;
+ 	flex-direction: row;
+ 	text-align: center;
+ 	width: 0 auto;
+
+
+}
+
+#cenOne{
+	height: 150px;
+	width: 33.3%;
+ 	border: 2px solid white;
+ 	margin: 10px;
+ 	padding: 10px;
+ 	text-align: center;
+ }
+
+ #cenOne:hover{
+ 	background-color:rgba(192,192,192,0.4);
+ 	}
+
+#cenTwo{
+	height: 150px;
+	width: 33.3%;
+	border: 2px solid white;
+	margin: 10px;
+	padding: 10px;
+ 	text-align: center;
+}
+
+#cenTwo:hover{
+ 	background-color:rgba(192,192,192,0.4);
+ 	}
+
+#cenThree{
+	height: 150px;
+	width: 33.3%;
+	border: 2px solid white;
+	margin: 10px;
+	padding: 10px;
+ 	text-align: center;
+}
+
+#cenThree:hover{
+ 	background-color:rgba(192,192,192,0.4);
+ 	}
+
+.blue{
+	background-color: #0B87A3;
+.addSectionTwo{
+  	width: 80%;
+  	margin: 0 auto;
+	display: flex;
+	flex-wrap: no-wrap;
+	flex-direction: row;
+	color: white;
+	}
+}
+
+#firstColumnTwo{
+	margin-right: 50px;
+	width: 50%;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ 	h1{
+ 	font-size: 30px;
+ 	margin-bottom: 15px;
+ 	}
+ }
+
+#scoundColumnTwo{
+	margin-left: 50px;
+	width: 50%;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ 	h1{
+ 	font-size: 30px;
+ 	margin-bottom: 15px;
+ 	}
+ }
+
+.kontakt{
+	
+	color:white;
+	position: relative;
+	background-color: black;
+	overflow: hidden;
+}
+
+
+.foot {
+	display: flex;
+	flex-wrap: no-wrap;
+	flex-direction: row;
+	background: black;
+	overflow: hidden;
+	
+#navi{
+	width: 50%;
+	
+}
+#fejs{
+	width: 50%;
+	
+}}
+
+
+.foot{
+	background-color: black;
+.addSectionTwo{
+  	width: 80%;
+  	margin: 0 auto;
+	display: flex;
+	flex-wrap: no-wrap;
+	flex-direction: row;
+	color: white;
+	}
+}
+
+#firstColumnTwo{
+	width: 50%;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+
+ 	h1{
+ 	font-size: 30px;
+ 	margin-bottom: 15px;
+ 	}
+ }
+
+#scoundColumnTwo{
+	margin-left: 20px;
+	width: 50%;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ 	h1{
+ 	font-size: 30px;
+ 	margin-bottom: 15px;
+ 	}
+ }
