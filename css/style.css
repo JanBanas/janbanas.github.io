@@ -70,7 +70,7 @@ body{
 
 @media all and (max-width:600px){
 #login .header h3{
-   margin: 80px;
+   margin: 0 auto;
 }
 }
 
