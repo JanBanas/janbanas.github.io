@@ -1,4 +1,6 @@
 
+
+@media all and (min-width:800px){
 body{
   background-image: url(../images/fullscreen_bg_image.jpg);
   background-size: cover;
@@ -6,6 +8,16 @@ body{
   padding: 20px;
   
 }
+}
+
+@media all and (min-width:800px){
+  .container{
+  width: 100%;
+  max-width: 100%;
+  margin: 20px 10px 0px 10px;
+  }
+}
+
 
 .container{
   width: 406px;
@@ -81,6 +93,14 @@ body{
   color: #0099CC;
 }
 
+@media all and (min-width:800px){
+  #login .inputs #submit{
+    width: 100%;
+    margin: 0;
+  }
+}
+
+
 #login .inputs #submit{
   width: 100%;
   margin-top: 20px;
@@ -101,14 +121,6 @@ body{
   clear: both;
 }
 
-
-
-@media  ((max-width: 749px) {
-.container{
-  width: 100%;
-  text-align: left;}
-
-}
 
 
 
