@@ -74,7 +74,7 @@ li {
     float: left;
 }
 
-li a {
+li p {
     display: block;
     color: black;
     text-align: center;
@@ -83,7 +83,7 @@ li a {
     font-weight: bold;
 }
 
-li a:hover {
+li p:hover {
     border-bottom: 2px solid #1A89AE;
     text-decoration: none;
 }
