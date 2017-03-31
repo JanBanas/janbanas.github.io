@@ -75,7 +75,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FAFFFa;
+    background-color: white;
     margin-left: 230px;
 }
 
@@ -115,7 +115,7 @@ li p:hover {
   width: 400px;
   margin-top: 70px;
   padding: 10px;
-  background: #FAFFFa;
+  background: white;
   border-radius: 15px;
   display: flex;
   justify-content: center;
