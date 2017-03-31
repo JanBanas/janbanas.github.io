@@ -82,6 +82,7 @@ ul {
 @media all and (max-width: 640px) {
  ul {
    margin-left: 0px;
+   margin-bottom: 10px;
   }
 }
 
