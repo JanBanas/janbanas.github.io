@@ -15,15 +15,26 @@ function zmiana()
 }
 
 
+
+
 $(document).ready(function() {
-$("#klik").click(function () { 
-$('#pokaz').slideToggle('normal');
+$("#click").click(function () { 
+$('#show').slideToggle('normal');
 });
 });
 
 $(document).ready(function() {
-$("#klik2").click(function () { 
-$('#pokaz2').slideToggle('normal');
+$("#click2").click(function () { 
+$('#show2').slideToggle('normal');
 });
 });
 
+jQuery(function(){
+    $("map.mainnav area")
+      .on("mouseenter", function(){
+        $("#menu_img").attr("src", $(this).data("menu-src"));
+      })
+      .on("mouseleave", function(){
+        $("#menu_img").attr("src", $("#menu_img").data("menu-src"));
+      });
+});

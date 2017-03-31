@@ -109,16 +109,19 @@ li p:hover {
 
 /*Stars */
 
+
 .stars {
   height: 20px;
-  width: 380px;
+  width: 400px;
   margin-top: 70px;
+  padding: 10px;
   background: #FAFFFa;
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
+  
 }
 
 .stars input{
@@ -149,7 +152,9 @@ label:hover ~ label::before,
 
 @media all and (max-width: 640px) {
  .stars {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
     width: 90%;
   }
 }
@@ -169,8 +174,8 @@ label:hover ~ label::before,
 
 @media all and (max-width: 640px) {
 #img {
-    margin-top: 15px;
-    width: 100%;
+    margin-top: -10px;
+   
   }
 }
 
