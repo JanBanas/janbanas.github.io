@@ -22,34 +22,34 @@
 
 			<div class="row">
 		
-				<div class="col-lg-12 col-lg-offset-10 " ><button id="log">Log Out</button></div>
+				<div class="col-lg-12 col-lg-offset-10 col-md-12 col-md-offset-10 col-xs-2 col-xs-offset-6 col-sm-2 col-sm-offset-6" ><button id="log">Log Out</button></div>
 
 			</div>
 
 
 			<div class="row">
 
-				<div class="col-lg-3 col-lg-offset-5"><a class="uploade" href="#" name="profile_image"><img src="images/aparat.png"> Uploade Cover Image</a></div>
+				<div class="col-lg-3 col-lg-offset-5 hidden-sm hidden-xs"><a class="uploade" href="#" name="profile_image"><img src="images/aparat.png"> Uploade Cover Image</a></div>
 
 			</div>
 
 			<div class="row">
-				<div class="col-lg-2 profile_image">
+				<div class="col-lg-2 col-md-2 col-sm-11 1 col-xs-11  profile_image">
 				<img id="img" src="images/profile_image.jpg" height="200" width="220">
 				</div>
 
 
-				<div class="col-lg-5 data">
-					<h3>Jessica Parker</h3>
-					<p><img src="images/gps.png"> Newport Beach, CA</p>
-					<p><img src="images/telephone.png">(949) 325-68594</p>
+				<div class="col-lg-3 data">
+					<h3 class="col-sm-11 col-sm-offset-1 col-xs-11 col-xs-offset-1">Jessica Parker</h3>
+					<p class="col-sm-12 col-xs-12"> <img src="images/gps.png"> Newport Beach, CA</p>
+					<p class="col-sm-12 col-xs-12"><img src="images/telephone.png">(949) 325-68594</p>
 				</div>
 
 				
 
-				<div class="col-lg-2">
-
-					<div class="stars">
+	<!-- Stars -->
+				<div class="stars col-lg-2 col-md-2 col-sm-12 col-xs-12">
+					<div>
 					    <input type="radio" id="star5" name="star" value="5">
 					    <label for="star5"> Five Stars </label>
 					    <input type="radio" id="star4" name="star" value="4">
@@ -60,16 +60,18 @@
 					    <label for="star2"> Two Stars </label>
 					    <input type="radio" id="star1" name="star" value="1">
 					    <label for="star1"> One Star </label>
-					 </div>
+					 </div>	
 
 	 			 <script src="js/app.js"></script>
 
+	 <!-- ... -->
+
 				</div>
-					<div class="col-lg-2 review">6 Reviews</div>
+					<div class="col-lg-2 col-md-2 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-2 review">6 Reviews</div>
 				</div>
 
 			<div class="row">
-				<nav class="col-lg-12 col-sm-12 col-md-5">
+				<nav class="col-lg-12 col-sm-12 col-md-12">
 					<ul>
 						<li class="left" id="klik"><p >Home</p></li>
 	  					<li id="klik2"><p >News</p></li>
@@ -123,10 +125,19 @@
 	
 				<div>
 					<div class="inputs">
-			  		<input type="password" placeholder="Existing Password" autofocus class="settings" /><br>
-			  		<input type="password" placeholder="New Password" autofocus class="settings" /><br>
-			  		<input type="password" placeholder="Confrim Password" autofocus class="settings" /><br>
-			  		<a id="submit" href="index2.html">SAVE</a><br>
+					
+					<div class="row">
+			  			<input type="password" placeholder="Existing Password" autofocus class="col-lg-12 col-sm-12 col-md-12 col-xs-12 settings" /><br>
+			  		</div>
+			  		<div class="row">
+			  			<input type="password" placeholder="New Password" autofocus class="col-lg-12 col-sm-12 col-md-12 col-xs-12 settings" /><br>
+			  		</div>
+			  		<div class="row">
+			  			<input type="password" placeholder="Confrim Password" autofocus class="col-lg-12 col-sm-12 col-md-12 col-xs-12 settings" /><br>
+			  		</div>
+			  		<div class="row">
+			  			<a id="submit" href="index2.html" class="col-lg-12 col-sm-12 col-md-12 col-xs-12">SAVE</a><br>
+			  		</div>
 			  	</div>		
 
 				</div>
