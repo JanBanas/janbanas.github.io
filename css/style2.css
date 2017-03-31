@@ -4,6 +4,7 @@
 body{
   background-color: #ecf1f5;
   font-family: 'Open Sans', sans-serif;
+
 }
 
 .container {
@@ -12,6 +13,13 @@ body{
   border: 1px solid #C7D2E4;
   margin-top: 30px;
   position: relative;
+}
+
+@media all and (max-width: 640px) {
+ .container {
+    margin-top: 0px;
+    background-color: white;
+  }
 }
 
 /*LOGO*/
@@ -68,22 +76,31 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #FAFFFa;
+    margin-left: 230px;
+}
+
+@media all and (max-width: 640px) {
+ ul {
+   margin-left: 0px;
+  }
 }
 
 li {
     float: left;
 }
 
-li p {
-    display: block;
+li button{
+   
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-weight: bold;
+    background: white;
+    border-width: 0px;
 }
 
-li p:hover {
+li button:hover {
     border-bottom: 2px solid #1A89AE;
     text-decoration: none;
 }
@@ -131,7 +148,7 @@ label:hover ~ label::before,
 
 @media all and (max-width: 640px) {
  .stars {
-    margin-top: 15px;
+    margin-top: 20px;
     width: 90%;
   }
 }
@@ -152,7 +169,7 @@ label:hover ~ label::before,
 @media all and (max-width: 640px) {
 #img {
     margin-top: 15px;
-    width: 110%;
+    width: 100%;
   }
 }
 
@@ -170,6 +187,7 @@ label:hover ~ label::before,
 @media all and (max-width: 640px) {
 .review{
     margin-top: 5px;
+    margin-bottom: 10px;
     width: 80%;
   }
 }
